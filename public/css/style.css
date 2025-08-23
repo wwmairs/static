@@ -1,9 +1,24 @@
+:root {
+    --green: #84b849;
+    --melon: #eaa467;
+    --brown: #8f4421;
+    --red: #eb414c;
+    --blue: #89c9d0;
+}
+
+h1 {
+    color: var(--red);
+}
+
+a {
+    color: var(--green);
+}
+
 html {
     background-color: #fff;
 }
 
 body {
-    color: blue;
     padding: .325rem;
 }
 
@@ -15,6 +30,7 @@ main {
     max-width: 90vw;
     margin: auto;
     margin-bottom: 4rem;
+    min-height: 90vh;
 }
 
 hr {
