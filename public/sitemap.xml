@@ -5,6 +5,33 @@
     <loc>http://localhost:1313/posts/ladds-vol-3/</loc>
     <lastmod>2025-03-07T16:27:55-08:00</lastmod>
   </url><url>
+    <loc>http://localhost:1313/posts/ladds-vol-2/</loc>
+    <lastmod>2024-08-07T16:27:55-08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/riso/</loc>
+    <lastmod>2024-08-07T16:27:55-08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/</loc>
+    <lastmod>2024-08-07T16:27:55-08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/typesetting/</loc>
+    <lastmod>2024-08-07T16:27:55-08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/attuned/</loc>
+    <lastmod>2024-03-07T16:27:55-08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/book/</loc>
+    <lastmod>2024-03-07T16:27:55-08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/from-there-to-here/</loc>
+    <lastmod>2024-03-07T16:27:55-08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/letterpress/</loc>
+    <lastmod>2024-03-07T16:27:55-08:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/print/</loc>
+    <lastmod>2024-03-07T16:27:55-08:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/posts/</loc>
     <lastmod>2023-01-01T08:30:00-07:00</lastmod>
   </url><url>
@@ -12,7 +39,5 @@
     <lastmod>2023-01-01T08:00:00-07:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/categories/</loc>
-  </url><url>
-    <loc>http://localhost:1313/tags/</loc>
   </url>
 </urlset>

@@ -16,10 +16,10 @@ h1, h2, h3 {
     text-transform: uppercase;
     margin-top: .2em;
     margin-bottom: .1em;
+    color: var(--melon);
 }
 
 h1 {
-    color: var(--melon);
     font-size: 2rem;
 }
 
@@ -29,10 +29,11 @@ a {
 }
 
 html {
-    background-color: #fff;
+    background-color: var(--green);
 }
 
 body {
+    background-color: #fff;
     padding: .325rem;
 }
 
@@ -61,14 +62,28 @@ header h1 {
     text-align: left;
     font-size: 3.5rem;
     letter-spacing: 4px;
+    line-height: .2em;
+    margin-bottom: .4em;
+    color: var(--red);
 }
 
 nav {
     text-align: left;
+    margin-bottom: 3rem;
+}
+
+nav a {
+    color: black;
 }
 
 li::marker {
     content: "\2192";
+}
+
+ul {
+    margin-top: .1em;
+    margin-bottom: .1em;
+    padding-inline-start: 1em;
 }
 
 #header-img {
@@ -112,4 +127,3 @@ li::marker {
     border: 1px solid black;
     border-radius: 1rem;
 }
-

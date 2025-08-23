@@ -6,6 +6,42 @@
     <description>Recent content in Tags on wwmairs</description>
     <generator>Hugo</generator>
     <language>en-us</language>
+    <lastBuildDate>Wed, 07 Aug 2024 16:27:55 -0800</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Riso</title>
+      <link>http://localhost:1313/tags/riso/</link>
+      <pubDate>Wed, 07 Aug 2024 16:27:55 -0800</pubDate>
+      <guid>http://localhost:1313/tags/riso/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Typesetting</title>
+      <link>http://localhost:1313/tags/typesetting/</link>
+      <pubDate>Wed, 07 Aug 2024 16:27:55 -0800</pubDate>
+      <guid>http://localhost:1313/tags/typesetting/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Book</title>
+      <link>http://localhost:1313/tags/book/</link>
+      <pubDate>Thu, 07 Mar 2024 16:27:55 -0800</pubDate>
+      <guid>http://localhost:1313/tags/book/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Letterpress</title>
+      <link>http://localhost:1313/tags/letterpress/</link>
+      <pubDate>Thu, 07 Mar 2024 16:27:55 -0800</pubDate>
+      <guid>http://localhost:1313/tags/letterpress/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Print</title>
+      <link>http://localhost:1313/tags/print/</link>
+      <pubDate>Thu, 07 Mar 2024 16:27:55 -0800</pubDate>
+      <guid>http://localhost:1313/tags/print/</guid>
+      <description></description>
+    </item>
   </channel>
 </rss>

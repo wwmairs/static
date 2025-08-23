@@ -20,7 +20,21 @@
       <link>http://localhost:1313/posts/ladds-vol-2/</link>
       <pubDate>Wed, 07 Aug 2024 16:27:55 -0800</pubDate>
       <guid>http://localhost:1313/posts/ladds-vol-2/</guid>
-      <description>&lt;p&gt;The 2 edition of ladds.&lt;/p&gt;</description>
+      <description>&lt;p&gt;The second edition of ladds.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Attuned</title>
+      <link>http://localhost:1313/posts/attuned/</link>
+      <pubDate>Thu, 07 Mar 2024 16:27:55 -0800</pubDate>
+      <guid>http://localhost:1313/posts/attuned/</guid>
+      <description>&lt;p&gt;Spiral bound riso photo book.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>From There to Here</title>
+      <link>http://localhost:1313/posts/from-there-to-here/</link>
+      <pubDate>Thu, 07 Mar 2024 16:27:55 -0800</pubDate>
+      <guid>http://localhost:1313/posts/from-there-to-here/</guid>
+      <description>&lt;p&gt;edition for 2024 PNCA print department print exchange. letterpress print in green, red, and black.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
