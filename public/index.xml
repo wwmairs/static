@@ -2,11 +2,25 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Home on wwmairs</title>
-    <link>https://wwmairs.com/</link>
+    <link>http://localhost:1313/</link>
     <description>Recent content in Home on wwmairs</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate></lastBuildDate>
-    <atom:link href="https://wwmairs.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 07 Mar 2025 16:27:55 -0800</lastBuildDate>
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Ladds 2</title>
+      <link>http://localhost:1313/posts/ladds-vol-3/</link>
+      <pubDate>Fri, 07 Mar 2025 16:27:55 -0800</pubDate>
+      <guid>http://localhost:1313/posts/ladds-vol-3/</guid>
+      <description>&lt;p&gt;The third edition of ladds.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Ladds 2</title>
+      <link>http://localhost:1313/posts/ladds-vol-2/</link>
+      <pubDate>Wed, 07 Aug 2024 16:27:55 -0800</pubDate>
+      <guid>http://localhost:1313/posts/ladds-vol-2/</guid>
+      <description>&lt;p&gt;The 2 edition of ladds.&lt;/p&gt;</description>
+    </item>
   </channel>
 </rss>

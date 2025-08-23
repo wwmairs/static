@@ -1,3 +1,8 @@
+@font-face {
+    font-family: "VTC Carrie";
+    src: url("../VTCCarrie-Regular.otf") format("opentype");
+}
+
 :root {
     --green: #84b849;
     --melon: #eaa467;
@@ -6,9 +11,18 @@
     --blue: #89c9d0;
 }
 
-h1 {
-    color: var(--red);
+h1, h2, h3 {
+    font-family: "VTC Carrie";
+    text-transform: uppercase;
+    margin-top: .2em;
+    margin-bottom: .1em;
 }
+
+h1 {
+    color: var(--melon);
+    font-size: 2rem;
+}
+
 
 a {
     color: var(--green);
@@ -27,10 +41,14 @@ p {
 }
 
 main {
-    max-width: 90vw;
-    margin: auto;
+    /*max-width: 90vw;
+    margin: auto;*/
     margin-bottom: 4rem;
     min-height: 90vh;
+}
+
+main img {
+    max-width: 50%;
 }
 
 hr {
@@ -40,7 +58,17 @@ hr {
 }
 
 header h1 {
-    text-align: right;
+    text-align: left;
+    font-size: 3.5rem;
+    letter-spacing: 4px;
+}
+
+nav {
+    text-align: left;
+}
+
+li::marker {
+    content: "\2192";
 }
 
 #header-img {
