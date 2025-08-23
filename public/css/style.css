@@ -1,0 +1,71 @@
+html {
+    background-color: #fff;
+}
+
+body {
+    color: blue;
+    padding: .325rem;
+}
+
+p {
+    margin: 0;
+}
+
+main {
+    max-width: 90vw;
+    margin: auto;
+    margin-bottom: 4rem;
+}
+
+hr {
+    border-style: solid;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+header h1 {
+    text-align: right;
+}
+
+#header-img {
+    border: 1px solid black;
+    border-radius: 75px;
+}
+
+.link {
+    background-color: white;
+    border-radius: 2rem;
+    border: 2pt solid black;
+    padding: 1rem;
+    text-align: center;
+    box-shadow: 10px 10px 0px 0px black;
+    position: relative;
+    width: fit-content;
+    margin: auto;
+}
+
+.link p:has(> img) {
+    max-width: 80vw;
+    max-height: 40vh;
+    width: fit-content;
+
+}
+
+.link:hover {
+    cursor: pointer;
+    border: 2pt solid black;
+    transform: translate(5px, 5px);
+    box-shadow: 5px 5px 0px 0px black;
+}
+
+.link:not(:last-child) {
+    margin-bottom: 2rem;
+}
+
+.link img { 
+    max-width: 90vw;
+    max-height: 40vh;
+    border: 1px solid black;
+    border-radius: 1rem;
+}
+
