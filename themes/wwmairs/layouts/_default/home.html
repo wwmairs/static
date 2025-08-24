@@ -1,6 +1,6 @@
 {{ define "main" }}
   {{ .Content }}
-  <h2>work</h2>
+  <h2>recent work</h2>
   {{ range site.RegularPages }}
       <a href="{{ .RelPermalink }}">
       <div class="entry">
@@ -8,13 +8,7 @@
       <h2>{{ .LinkTitle }}</h2>
       */}}
       {{ .Summary }}
-      {{ with .Resources.ByType "image" }}
-      {{ with index . 0 }}
-        {{ with .Resize "500x" }}
-          <img src="{{ .RelPermalink }}" width="{{ div .Width 2 }}" height="{{ div .Height 2}}" alt="">
-        {{ end }}
-      {{ end }}
-    {{ end }}
+      {{ partial "cover-image.html" . }}
       </div>
     </a>
   {{ end }}

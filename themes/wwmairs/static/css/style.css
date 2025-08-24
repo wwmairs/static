@@ -11,12 +11,18 @@
     --blue: #89c9d0;
 }
 
+@media (max-width: 500px) {
+    html{
+        font-size: 5.3vw;
+   }
+}
+
 h1, h2, h3 {
     font-family: "VTC Carrie";
     text-transform: uppercase;
     margin-top: .2em;
     margin-bottom: .1em;
-    color: var(--melon);
+    color: var(--green);
 }
 
 h1 {
@@ -35,10 +41,21 @@ html {
 body {
     background-color: #fff;
     padding: .325rem;
+    color: var(--green);
 }
 
 p {
     margin: 0;
+}
+
+header {
+    text-align: right;
+    width: max-content;
+    max-width: calc(100vw - 4rem);
+    float: right;
+    border: 2px dashed var(--green);
+    padding: 1rem;
+    margin-bottom: 1rem;
 }
 
 main {
@@ -49,31 +66,31 @@ main {
 }
 
 main img {
-    max-width: 50%;
+    width: 100%;
+    max-width: 800px;
+    height: auto;
 }
 
+
 hr {
-    border-style: solid;
+    border-style: dashed;
     margin-top: 2rem;
     margin-bottom: 2rem;
 }
 
 header h1 {
-    text-align: left;
     font-size: 3.5rem;
     letter-spacing: 4px;
     line-height: .2em;
     margin-bottom: .4em;
-    color: var(--red);
 }
 
 nav {
-    text-align: left;
-    margin-bottom: 3rem;
+    text-align: right;
 }
 
 nav a {
-    color: black;
+/*    color: black;*/
 }
 
 li::marker {
@@ -81,9 +98,14 @@ li::marker {
 }
 
 ul {
+    display: inline-block;
     margin-top: .1em;
     margin-bottom: .1em;
     padding-inline-start: 1em;
+}
+
+li {
+    width: max-content;
 }
 
 #header-img {

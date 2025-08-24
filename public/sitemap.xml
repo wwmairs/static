@@ -2,42 +2,42 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/posts/ladds-vol-3/</loc>
+    <loc>https://wwmairs.com/posts/ladds-vol-3/</loc>
     <lastmod>2025-03-07T16:27:55-08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/ladds-vol-2/</loc>
+    <loc>https://wwmairs.com/tags/riso/</loc>
+    <lastmod>2025-03-07T16:27:55-08:00</lastmod>
+  </url><url>
+    <loc>https://wwmairs.com/tags/</loc>
+    <lastmod>2025-03-07T16:27:55-08:00</lastmod>
+  </url><url>
+    <loc>https://wwmairs.com/tags/typesetting/</loc>
+    <lastmod>2025-03-07T16:27:55-08:00</lastmod>
+  </url><url>
+    <loc>https://wwmairs.com/posts/ladds-vol-2/</loc>
     <lastmod>2024-08-07T16:27:55-08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/riso/</loc>
-    <lastmod>2024-08-07T16:27:55-08:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/</loc>
-    <lastmod>2024-08-07T16:27:55-08:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/typesetting/</loc>
-    <lastmod>2024-08-07T16:27:55-08:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/posts/attuned/</loc>
+    <loc>https://wwmairs.com/posts/attuned/</loc>
     <lastmod>2024-03-07T16:27:55-08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/book/</loc>
+    <loc>https://wwmairs.com/tags/book/</loc>
     <lastmod>2024-03-07T16:27:55-08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/from-there-to-here/</loc>
+    <loc>https://wwmairs.com/posts/from-there-to-here/</loc>
     <lastmod>2024-03-07T16:27:55-08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/letterpress/</loc>
+    <loc>https://wwmairs.com/tags/letterpress/</loc>
     <lastmod>2024-03-07T16:27:55-08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/print/</loc>
+    <loc>https://wwmairs.com/tags/print/</loc>
     <lastmod>2024-03-07T16:27:55-08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/</loc>
+    <loc>https://wwmairs.com/posts/</loc>
     <lastmod>2023-01-01T08:30:00-07:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/</loc>
+    <loc>https://wwmairs.com/</loc>
     <lastmod>2023-01-01T08:00:00-07:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/</loc>
+    <loc>https://wwmairs.com/categories/</loc>
   </url>
 </urlset>
