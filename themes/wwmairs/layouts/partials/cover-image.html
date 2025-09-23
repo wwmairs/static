@@ -1,6 +1,6 @@
 {{ with .Resources.ByType "image" }}
   {{ with index . 0 }}
-    {{ with .Resize "1000x" }}
+    {{ with .Resize "2000x" }}
       <div class="cover-image">
         {{ partial "image.html" . }}
       </div>

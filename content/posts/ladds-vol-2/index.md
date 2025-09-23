@@ -9,5 +9,5 @@ The second edition of ladds.
 
 <!--more-->
 
-
+[grab a copy!](https://everythingmatters.press/prints/ladds-edition-vol-3/ "ladd's edition vol. 3")
 

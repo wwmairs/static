@@ -1,7 +1,7 @@
 {{ define "main" }}
   {{ .Content }}
   <h2>recent work</h2>
-  {{ range site.RegularPages }}
+  {{ range first 10 site.RegularPages }}
       <a href="{{ .RelPermalink }}">
       <div class="entry">
       {{/*

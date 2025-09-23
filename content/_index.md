@@ -9,9 +9,4 @@ they like to print things with a risograph, for fun and [for business](https://e
 
 ---
 
-(forgive the slow site upgrade, plz! documentation incoming,,,)
-
----
-
-
 

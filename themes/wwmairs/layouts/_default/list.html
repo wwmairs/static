@@ -2,9 +2,10 @@
   <h1>{{ .Title }}</h1>
   {{ .Content }}
   {{ range .Pages }}
-    <h2><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></h2>
-    {{ .Summary }}
-    {{ partial "cover-image.html" . }}
-
+    <div class="entry">
+      <a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a>
+      {{ .Summary }}
+      {{ partial "cover-image.html" . }}
+    </div>
   {{ end }}
 {{ end }}

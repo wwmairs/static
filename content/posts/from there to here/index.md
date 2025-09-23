@@ -5,7 +5,9 @@ tags = ['letterpress', 'print']
 
 +++
 
-edition for 2024 PNCA print department print exchange. letterpress print in green, red, and black.
+letterpress edition
 <!--more-->
-Made with [brigit]("https://www.brigitgalloyart.com/")
+for 2024 PNCA print department print exchange.
+3 color polymer plate letterpress print with gradient flat beneath green, red, and black. Separations prepared from custom color dithering script.
+
 

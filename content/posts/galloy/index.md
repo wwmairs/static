@@ -1,6 +1,6 @@
 +++
 date = '2025-03-07T16:27:55-08:00'
-title = 'portfolio site for brigit galloy'
+title = 'brigit galloy'
 tags = ['web work']
 
 +++

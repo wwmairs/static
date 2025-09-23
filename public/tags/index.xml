@@ -6,20 +6,34 @@
     <description>Recent content in Tags on wwmairs</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 07 Mar 2025 16:27:55 -0800</lastBuildDate>
+    <lastBuildDate>Mon, 15 Sep 2025 16:27:55 -0800</lastBuildDate>
     <atom:link href="https://wwmairs.com/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Riso</title>
       <link>https://wwmairs.com/tags/riso/</link>
-      <pubDate>Fri, 07 Mar 2025 16:27:55 -0800</pubDate>
+      <pubDate>Mon, 15 Sep 2025 16:27:55 -0800</pubDate>
       <guid>https://wwmairs.com/tags/riso/</guid>
       <description></description>
     </item>
     <item>
       <title>Typesetting</title>
       <link>https://wwmairs.com/tags/typesetting/</link>
-      <pubDate>Fri, 07 Mar 2025 16:27:55 -0800</pubDate>
+      <pubDate>Mon, 15 Sep 2025 16:27:55 -0800</pubDate>
       <guid>https://wwmairs.com/tags/typesetting/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Zine</title>
+      <link>https://wwmairs.com/tags/zine/</link>
+      <pubDate>Mon, 15 Sep 2025 16:27:55 -0800</pubDate>
+      <guid>https://wwmairs.com/tags/zine/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Book</title>
+      <link>https://wwmairs.com/tags/book/</link>
+      <pubDate>Sat, 07 Jun 2025 16:27:55 -0800</pubDate>
+      <guid>https://wwmairs.com/tags/book/</guid>
       <description></description>
     </item>
     <item>
@@ -27,13 +41,6 @@
       <link>https://wwmairs.com/tags/web-work/</link>
       <pubDate>Fri, 07 Mar 2025 16:27:55 -0800</pubDate>
       <guid>https://wwmairs.com/tags/web-work/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Book</title>
-      <link>https://wwmairs.com/tags/book/</link>
-      <pubDate>Thu, 07 Mar 2024 16:27:55 -0800</pubDate>
-      <guid>https://wwmairs.com/tags/book/</guid>
       <description></description>
     </item>
     <item>
@@ -48,6 +55,13 @@
       <link>https://wwmairs.com/tags/print/</link>
       <pubDate>Thu, 07 Mar 2024 16:27:55 -0800</pubDate>
       <guid>https://wwmairs.com/tags/print/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title> Book</title>
+      <link>https://wwmairs.com/tags/-book/</link>
+      <pubDate>Fri, 15 Dec 2023 16:27:55 -0800</pubDate>
+      <guid>https://wwmairs.com/tags/-book/</guid>
       <description></description>
     </item>
   </channel>
