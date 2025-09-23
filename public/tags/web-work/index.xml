@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Web Work on wwmairs</title>
+    <link>https://wwmairs.com/tags/web-work/</link>
+    <description>Recent content in Web Work on wwmairs</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 07 Mar 2025 16:27:55 -0800</lastBuildDate>
+    <atom:link href="https://wwmairs.com/tags/web-work/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>portfolio site for brigit galloy</title>
+      <link>https://wwmairs.com/posts/galloy/</link>
+      <pubDate>Fri, 07 Mar 2025 16:27:55 -0800</pubDate>
+      <guid>https://wwmairs.com/posts/galloy/</guid>
+      <description>&lt;p&gt;A portfolio site&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>portfolio site for brigit galloy</title>
+      <link>https://wwmairs.com/posts/em/</link>
+      <pubDate>Sat, 07 Sep 2024 16:27:55 -0800</pubDate>
+      <guid>https://wwmairs.com/posts/em/</guid>
+      <description>&lt;p&gt;Web design and development&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>portfolio site for jordan delawder</title>
+      <link>https://wwmairs.com/posts/delawder/</link>
+      <pubDate>Thu, 07 Mar 2019 16:27:55 -0800</pubDate>
+      <guid>https://wwmairs.com/posts/delawder/</guid>
+      <description>&lt;p&gt;A portfolio site&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
