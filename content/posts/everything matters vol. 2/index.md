@@ -5,7 +5,7 @@ tags = ['riso', 'typesetting', 'zine']
 
 +++
 
-The second volume of *everything matters*
+The 2nd volume of *everything matters*
 <!--more-->
 a hybrid literary journal / art zine. On the topic of **belongings**.
 

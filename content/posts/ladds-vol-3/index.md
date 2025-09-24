@@ -5,7 +5,7 @@ tags = ['riso', 'typesetting']
 
 +++
 
-The third edition of ladds.
+The 3rd edition of ladds.
 <!--more-->
 
 [grab a copy!](https://everythingmatters.press/prints/ladds-edition-vol-3/ "ladd's edition vol. 3")

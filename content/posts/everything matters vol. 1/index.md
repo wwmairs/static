@@ -5,7 +5,7 @@ tags = ['riso', 'typesetting', 'zine']
 
 +++
 
-The first volume of *everything matters*
+The 1st volume of *everything matters*
 <!--more-->
 a hybrid literary journal / art zine. On the topic of #Hauntings#.
 

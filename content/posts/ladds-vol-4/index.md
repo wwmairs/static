@@ -5,7 +5,7 @@ tags = ['riso', 'typesetting']
 
 +++
 
-The fourth edition of ladds. 
+The 4th edition of ladds. 
 <!--more-->
 Coming soon!
 

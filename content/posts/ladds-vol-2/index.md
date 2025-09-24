@@ -5,7 +5,7 @@ tags = ['riso', 'typesetting']
 
 +++
 
-The second edition of ladds.
+The 2nd edition of ladds.
 
 <!--more-->
 
