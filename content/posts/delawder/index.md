@@ -7,5 +7,5 @@ tags = ['web work']
 
 A portfolio site 
 <!--more-->
-for Portland based photographer [Jordan DeLawder]("https://www.jordandelawder.com/")
+for Portland based photographer [Jordan DeLawder](https://www.jordandelawder.com/)
 

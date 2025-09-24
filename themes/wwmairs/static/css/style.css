@@ -15,7 +15,6 @@
 
 html {
     font-size: 5.3vw;
-    background-color: var(--brown);
 }
 
 @media (min-width: 500px) {
@@ -25,9 +24,14 @@ html {
 }
 
 body {
-    background-color: #fff;
+    font-family: "news-gothic-std", sans-serif;
+    font-weight: 500;
+    margin: 0;
     padding: .325rem;
     color: var(--brown);
+/*    max-width: 1200px;*/
+    margin: auto;
+    padding: 1rem;
 }
 
 h1, h2, h3 {

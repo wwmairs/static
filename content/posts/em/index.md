@@ -8,7 +8,7 @@ tags = ['web work']
 Web design and development
 <!--more-->
 for a riso-based small press publishing project
-[everything matters]("https://everythingmatters.press/")
+[everything matters](https://everythingmatters.press/)
 
 
 

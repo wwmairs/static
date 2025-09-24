@@ -7,5 +7,5 @@ tags = ['web work']
 
 A portfolio site 
 <!--more-->
-for Portland based ceramacist and printmaker [brigit galloy]("https://www.brigitgalloyart.com/").
+for Portland based ceramacist and printmaker [brigit galloy](https://www.brigitgalloyart.com/).
 

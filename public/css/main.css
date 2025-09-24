@@ -1,13 +1,3 @@
-body {
-  font-family: "news-gothic-std", sans-serif;
-  font-weight: 500;
-  margin: 0;
-  padding: 1rem;
-  /*max-width: 768px;
-  max-width: fit-content;
-  margin: auto;*/
-}
-
 header {
     text-align: center;
 
