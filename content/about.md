@@ -11,11 +11,3 @@ they like to print things with a risograph, for fun and [for business](https://e
 they studied computers and software at Tufts University before studying printing and paper at the Pacific Northwest College of Art.
 
 if you'd like you can look at <a href="/resume.pdf" target="_blank">their resume</a>.
-
-here is something neat[^1]
-
-some other nonesasdlfj lsakdjfas lksf lskj
-sdfj l kjsdfl jas fkjsadlk j; slakdjflskjdal;jlk jl kj;l kaj;lsfkoqwiern,mnvo oi iqnozic 
-oin nfiqwnn,mnc  sfipci qwerlka;lkj safdoija sldkjfqwelrh aosigj Zalskdf,mqwne l;fjljk 
-
-[^1]: truly, it is neat.
