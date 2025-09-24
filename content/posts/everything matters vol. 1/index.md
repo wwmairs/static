@@ -1,6 +1,6 @@
 +++
 date = '2025-01-15T16:27:55-08:00'
-title = 'Everything Matters Vol. 1'
+title = 'Vol. 1'
 tags = ['riso', 'typesetting', 'zine']
 
 +++
