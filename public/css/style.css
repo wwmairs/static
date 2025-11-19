@@ -65,8 +65,9 @@ h1 {
 
 a {
     color: black;
-    text-decoration: blue .2rem underline;
-    -webkit-text-decoration: blue .2rem underline;
+    text-decoration-line: underline;
+    text-decoration-color: blue;
+    text-decoration-thickness: .2rem;
     text-decoration-skip-ink: none;
 
 }
