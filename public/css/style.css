@@ -12,6 +12,15 @@
     --blue: #89c9d0;
 }
 
+#svg-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+
 
 html {
     font-size: 5.3vw;
@@ -57,6 +66,7 @@ h1 {
 a {
     color: black;
     text-decoration: blue .2rem underline;
+    -webkit-text-decoration: blue .2rem underline;
     text-decoration-skip-ink: none;
 
 }
