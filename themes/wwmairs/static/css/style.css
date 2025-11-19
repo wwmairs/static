@@ -24,24 +24,27 @@ html {
 }
 
 body {
-    font-family: "news-gothic-std", sans-serif;
+/*    font-family: "news-gothic-std", sans-serif;*/
+    font-family: "ocr-a-std", monospace;
     font-weight: 500;
     margin: 0;
     padding: .325rem;
-    color: var(--brown);
+/*    background-color: var(--green);*/
 /*    max-width: 1200px;*/
     margin: auto;
     padding: 1rem;
+    letter-spacing: -0.1rem;
 }
 
 h1, h2, h3 {
-    font-family: "VTC Carrie";
+/*    font-family: "VTC Carrie";*/
+    font-family: "ocr-a-std", monospace;
     text-transform: uppercase;
     margin-top: .2rem;
     margin-bottom: .5rem;
     color: white;
     -webkit-text-stroke: .5px black;
-    background-color: var(--brown);
+/*    background-color: var(--brown);*/
     text-align: justify;
     width: max-content;
 }
@@ -52,11 +55,25 @@ h1 {
 
 
 a {
-    color: blue;
+    color: black;
+    text-decoration: blue .2rem underline;
+    text-decoration-skip-ink: none;
+
+}
+
+a:hover {
+    background-color: blue;
+    color: white;
+    transition: .125s;
 }
 
 a:has(.entry) {
     text-decoration: none;
+    background-color: unset;
+}
+
+a:has(.entry):hover {
+/*    text-decoration: blue .25rem underline;*/
 }
 
 p {
@@ -69,11 +86,36 @@ header {
     width: max-content;
     max-width: calc(100vw - 4rem);
     margin-bottom: 1rem;
+    backdrop-filter: blur(3px);
+/*    background: rgba(255, 255, 255, .9);*/
+    border-radius: 1rem;
+    padding: 1rem;
+/*    box-shadow: 0 0 4px 0px rgba(0, 0, 0, .5);*/
+    border: 1px solid black;
+    position: fixed;
+}
+
+header > * {
+    float: left;
+}
+
+header nav {
+    position: absolute;
+    bottom: .5rem;
+}
+
+header li {
+    float: left;
+}
+
+header li:not(:last-child) {
+    padding-right: 1rem;
 }
 
 main {
     /*max-width: 90vw;
     margin: auto;*/
+    margin-top: 8rem;
     margin-bottom: 4rem;
     min-height: 90vh;
 }
@@ -89,13 +131,13 @@ main img {
 
 hr {
     border-style: none;
-    border-bottom: .625rem solid var(--brown);
+    border-bottom: .25rem solid black;
     margin-top: 2rem;
     margin-bottom: 2rem;
 }
 
 header h1 {
-    font-size: 3.5rem;
+    font-size: 3rem;
     letter-spacing: 4px;
     margin-bottom: .4em;
 }
@@ -109,14 +151,15 @@ nav a {
 }
 
 li::marker {
-    content: "\2192";
+/*    content: "\2192";*/
 }
 
 ul {
     display: inline-block;
     margin-top: .1em;
     margin-bottom: .1em;
-    padding-inline-start: 1em;
+    padding-inline-start: 0;
+    list-style-type: none;
 }
 
 li {
