@@ -1,15 +1,17 @@
 {{ define "main" }}
   {{ .Content }}
   <h2>recent work</h2>
-  {{ range first 10 site.RegularPages }}
-      <a href="{{ .RelPermalink }}">
-      <div class="entry">
-      {{/*
-      <h2>{{ .LinkTitle }}</h2>
-      */}}
-      {{ .Summary }}
-      {{ partial "cover-image.html" . }}
-      </div>
-    </a>
-  {{ end }}
+  <div class="entries">
+    {{ range first 10 site.RegularPages }}
+        <a href="{{ .RelPermalink }}">
+        <div class="entry">
+        {{/*
+        <h2>{{ .LinkTitle }}</h2>
+        */}}
+        <!-- {{ .Summary }} -->
+        {{ partial "cover-image.html" . }}
+        </div>
+      </a>
+    {{ end }}
+  <div>
 {{ end }}

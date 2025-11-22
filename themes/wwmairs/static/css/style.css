@@ -28,7 +28,7 @@ html {
 
 @media (min-width: 500px) {
     html{
-        font-size: 1.5vw;
+        font-size: 1.2vw;
    }
 }
 
@@ -106,6 +106,11 @@ header {
     position: fixed;
 }
 
+header h1 {
+    font-size: 2.5rem;
+    margin-bottom: .4em;
+}
+
 header > * {
     float: left;
 }
@@ -147,11 +152,6 @@ hr {
     margin-bottom: 2rem;
 }
 
-header h1 {
-    font-size: 3rem;
-    margin-bottom: .4em;
-}
-
 nav {
     text-align: left;
 }
@@ -176,10 +176,40 @@ li {
     width: max-content;
 }
 
-nav li {}
+.tags li {
+    float: left;
+}
+
+.tags li:not(:last-child) {
+    margin-right: .5rem;
+}
 
 .entry {
     margin-bottom: 2rem;
+}
+
+.entries {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 1rem;
+}
+
+.entry-details {
+    margin-top: .5rem;
+}
+
+.entry-photo-container {
+    overflow: overlay;
+}
+.entry-photos  {
+    overflow: scroll;
+    width: max-content;
+    max-height: 75vh;
+}
+
+.entry-photos img {
+    width: auto;
+    height: 74vh;
 }
 
 #header-img {
@@ -240,4 +270,10 @@ nav li {}
     header h1 {
         letter-spacing: 4px;
     }
+}
+
+@media (max-width: 599px) {
+
+    
+
 }

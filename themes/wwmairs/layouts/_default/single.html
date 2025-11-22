@@ -1,17 +1,24 @@
 {{ define "main" }}
-  <h1><a
-    {{- with .Params.link }}
-     href="{{ . }}"
-    {{- end }}
-    style="color: white !important;">{{ .Title }}</a></h1>
+  <div class="entry-photo-container">
+    <div class="entry-photos">
+      {{ range .Resources.ByType "image" }}
+        {{ partial "image.html" . }}
+      {{ end }}
+    </div>
+  </div>
 
-  {{ $dateMachine := .Date | time.Format "2006-01-02T15:04:05-07:00" }}
-  {{ $dateHuman := .Date | time.Format ":date_long" }}
-  <!-- <time datetime="{{ $dateMachine }}">{{ $dateHuman }}</time> -->
+  <div class="entry-details">
+    <h1><a
+      {{- with .Params.link }}
+       href="{{ . }}"
+      {{- end }}
+      style="color: white !important;">{{ .Title }}</a>
+    </h1>
+    {{ $dateMachine := .Date | time.Format "2006-01-02T15:04:05-07:00" }}
+    {{ $dateHuman := .Date | time.Format ":date_long" }}
+    <time datetime="{{ $dateMachine }}">{{ $dateHuman }}</time>
 
-  {{ .Content }}
-  {{ range .Resources.ByType "image" }}
-    {{ partial "image.html" . }}
-  {{ end }}
-  {{ partial "terms.html" (dict "taxonomy" "tags" "page" .) }}
+    {{ .Content }}
+    {{ partial "terms.html" (dict "taxonomy" "tags" "page" .) }}
+  </div>
 {{ end }}
