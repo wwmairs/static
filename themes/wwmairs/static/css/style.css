@@ -273,7 +273,23 @@ li {
 }
 
 @media (max-width: 599px) {
+    header h1 {
+/*        animation-name: headerShrink;*/
+        animation-duration: 1ms;
+        animation-direction: alternate;
+        animation-timeline: scroll(block nearest);
+    }
 
-    
+    @keyframes headerShrink {
+        0% {
+            transform: scale(1);
+        }
+        10% {
+            transform: scale(.75) translate(-25%, -25%);
+        }
+        100% {
+            transform: scale(.75) translate(-25%, -25%);
+        }
+    }
 
 }
