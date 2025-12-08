@@ -8,6 +8,7 @@
     --melon: #eaa467;
     --copper: #bd6439;
     --trans-copper: rgba(189, 100, 57, .05);
+    --light-copper: #fcf7f5;
     --red: #eb414c;
     --blue: #89c9d0;
 }
@@ -44,7 +45,7 @@ body {
     padding: .5rem;
     letter-spacing: -0.1rem;
 /*    background-color: rgba(0,0,255, .05);*/
-    background-color: var(--trans-copper);
+    background-color: var(--light-copper);
 }
 
 main > * {
@@ -129,8 +130,32 @@ header li {
     float: left;
 }
 
-header li:not(:last-child) {
+header *:not(:last-child) {
     padding-right: 1rem;
+}
+
+.breadcrumbs {
+    font-size: .6rem;
+    border: 1px solid var(--copper);
+    border-radius: 2rem;
+    background-color: white;
+    padding: 0 .6rem;
+    display: inline-block;
+    text-transform: lowercase;
+}
+
+.breadcrumbs ol {
+    overflow: auto;
+    list-style-type: none;
+    padding: 0;
+}
+
+.breadcrumbs ol * {
+    float: left;
+}
+
+.breadcrumbs > ol > * {
+    padding-right: .5rem;
 }
 
 main {
@@ -214,14 +239,12 @@ li {
     overflow: overlay;
 }
 .entry-photos  {
-    overflow: scroll;
+    display: block;
+    position: relative;
+    overflow-x: scroll;
+    overflow-y: clip;
     width: max-content;
     max-height: 75vh;
-}
-
-.entry-photos img {
-    width: auto;
-    height: 74vh;
 }
 
 #header-img {
@@ -282,16 +305,27 @@ li {
     header h1 {
         letter-spacing: 4px;
     }
+
+    .entry-photos img {
+        width: auto;
+        height: 74vh;
+    }
 }
 
 @media (max-width: 599px) {
     html {
 /*        container-type: scroll-state;*/
 /*        container-name: scroller;*/
+        background-color: var(--copper);
+    }
+
+    body {
+        border-radius: 1rem 1rem 0 0;
     }
 
     header {
         position: fixed;
+        z-index: 1;
         bottom: 0rem;
         max-width: unset;
         width: calc(100vw - 2rem - 2px);
@@ -316,6 +350,22 @@ li {
     header {
         transition: .5s border, .5s padding, .5s translate, .5s border-radius;
         translate: 0;
+    }
+
+    .entry-photos img:first-child {
+        width: calc(100vw - 1rem - 2px);
+        height: auto;
+    }
+
+    .entry-photos {
+        display: block;
+        position: relative;
+    }
+
+    .entry-photos img {
+    /*    display: block;*/
+        width: auto;
+        max-height: 100%;
     }
 
     /*    mf safari doesn't support this*/

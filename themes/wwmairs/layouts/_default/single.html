@@ -1,11 +1,5 @@
 {{ define "main" }}
-  <div class="entry-photo-container">
-    <div class="entry-photos">
-      {{ range .Resources.ByType "image" }}
-        {{ partial "image.html" . }}
-      {{ end }}
-    </div>
-  </div>
+  {{ partial "entry-images.html" . }}
 
   <div class="entry-details">
     <h1><a

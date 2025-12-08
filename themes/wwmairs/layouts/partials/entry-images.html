@@ -1,0 +1,21 @@
+<div class="entry-photo-container">
+  <div class="entry-photos">
+    {{ range $index, $image := .Resources.ByType "image" }}
+      {{ if eq $index 0 }}
+        <script>
+          function setHeight(elem) {
+            console.log(getComputedStyle(elem).height);
+            height = getComputedStyle(elem).height.split("px")[0];
+            height = parseFloat(height) + 20 + "px";
+            console.log(height);
+            elem.parentElement.style.height = height;
+          }
+        </script>
+        <img loading="lazy" src="{{ .RelPermalink }}" width="{{ .Width }}" alt=""
+             onload="setHeight(this)">
+      {{ else }}
+        {{ partial "image.html" . }}
+      {{ end}}
+    {{ end }}
+  </div>
+</div>

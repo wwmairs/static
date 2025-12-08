@@ -5,6 +5,7 @@
 <meta name="viewport" content="width=device-width">
 <link rel="stylesheet" type="text/css" href="/css/style.css">
 <link rel="stylesheet" href="https://use.typekit.net/gjr2olc.css">
+<meta name="theme-color" content="#bd6439">
 <title>Transmitted | wwmairs</title>
 
       <link rel="stylesheet" href="/css/main.min.b813a2f5469d85e54010bab0ac2235baf702c1ec6ed95bf87ae83deee1ce694f.css" integrity="sha256-uBOi9UadheVAELqwrCI1uvcCwexu2Vv4eug97uHOaU8=" crossorigin="anonymous">
@@ -34,15 +35,42 @@
 
 
   </header>
+  <nav class="breadcrumbs" aria-label="breadcrumbs">
+  <ol>
+      <li>
+        <a href="/">home</a>
+      </li>
+      <span aria-hidden="true">»</span>
+      <li>
+        <a href="/posts/">portfolio</a>
+      </li>
+      <span aria-hidden="true">»</span>
+    <li class="active">
+      <a href="/posts/transmitted/" aria-current="location">Transmitted</a>
+    </li>
+  </ol>
+</nav>
   <main>
     
   <div class="entry-photo-container">
-    <div class="entry-photos">
+  <div class="entry-photos">
+    
       
-        <img loading="lazy" src="/posts/transmitted/transmitted.jpeg" width="1280" alt="">
+        <script>
+          function setHeight(elem) {
+            console.log(getComputedStyle(elem).height);
+            height = getComputedStyle(elem).height.split("px")[0];
+            height = parseFloat(height) + 20 + "px";
+            console.log(height);
+            elem.parentElement.style.height = height;
+          }
+        </script>
+        <img loading="lazy" src="/posts/transmitted/transmitted.jpeg" width="1280" alt=""
+             onload="setHeight(this)">
       
-    </div>
+    
   </div>
+</div>
 
   <div class="entry-details">
     <h1><a
