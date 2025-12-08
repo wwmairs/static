@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Ladds Edition on wwmairs</title>
+    <link>https://wwmairs.com/tags/ladds-edition/</link>
+    <description>Recent content in Ladds Edition on wwmairs</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 05 Oct 2025 16:27:55 -0800</lastBuildDate>
+    <atom:link href="https://wwmairs.com/tags/ladds-edition/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Ladds 4</title>
+      <link>https://wwmairs.com/posts/ladds-vol-4/</link>
+      <pubDate>Sun, 05 Oct 2025 16:27:55 -0800</pubDate>
+      <guid>https://wwmairs.com/posts/ladds-vol-4/</guid>
+      <description>&lt;p&gt;The 4th edition of ladds.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

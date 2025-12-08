@@ -1,12 +1,12 @@
 +++
-date = '2025-06-07T16:27:55-08:00'
+date = '2025-10-05T16:27:55-08:00'
 title = 'Ladds 4'
-tags = ['riso', 'typesetting']
+tags = ['riso', 'typesetting', 'ladds edition']
 
 +++
 
 The 4th edition of ladds. 
 <!--more-->
-Coming soon!
+[grab a copy!](https://everythingmatters.press/prints/ladds-edition-vol-4/ "ladd's edition vol. 4")
 
 
