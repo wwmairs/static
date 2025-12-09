@@ -1,7 +1,10 @@
 {{ define "main" }}
-  {{ partial "entry-images.html" . }}
 
-  <div class="entry-details">
+  {{ range .Resources.ByType "image" | first 1 }}
+    {{ partial "image.html" . }}
+  {{ end }}
+
+  <div class="entry-details side-matter">
     <h1><a
       {{- with .Params.link }}
        href="{{ . }}"
@@ -17,5 +20,13 @@
 
     {{ .Content }}
     {{ partial "terms.html" (dict "taxonomy" "tags" "page" .) }}
+  </div>
+
+  <div class="entry-photo-container">
+    <div class="entry-photos">
+      {{ range after 1 (.Resources.ByType "image") }}
+        {{ partial "image.html" . }}  
+      {{ end }}
+    </div>
   </div>
 {{ end }}

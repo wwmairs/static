@@ -27,12 +27,6 @@ html {
     font-size: 5.3vw;
 }
 
-@media (min-width: 500px) {
-    html{
-        font-size: 1.2vw;
-   }
-}
-
 body {
 /*    font-family: "news-gothic-std", sans-serif;*/
     color: var(--copper);
@@ -40,7 +34,6 @@ body {
     font-weight: 500;
     margin: 0;
 /*    background-color: var(--green);*/
-    max-width: 1200px;
     margin: auto;
     padding: .5rem;
     letter-spacing: -0.1rem;
@@ -63,7 +56,6 @@ h1, h2, h3 {
     color: white;
     -webkit-text-stroke: .5px var(--copper);
 /*    background-color: var(--copper);*/
-    text-align: justify;
 }
 
 h1 {
@@ -100,6 +92,13 @@ p {
     margin-bottom: 1rem;
 }
 
+img.loading {
+    background-color: var(--copper);
+    min-width: 100px;
+    min-height: 200px;
+    border-radius: .5rem;
+}
+
 header {
     width: max-content;
     max-width: calc(100vw - 2rem - 2px);
@@ -117,7 +116,7 @@ header h1 {
     margin-bottom: 0;
     display: inline-block;
     position: relative;
-    top: -0.1rem;
+    top: -0.3rem;
 }
 
 header nav {
@@ -154,8 +153,12 @@ header *:not(:last-child) {
     float: left;
 }
 
-.breadcrumbs > ol > * {
+.breadcrumbs > ol > *:not(:last-child) {
     padding-right: .5rem;
+}
+
+.breadcrumbs > ol > *:last-child::after {
+    content: "\2002";
 }
 
 main {
@@ -225,6 +228,10 @@ li {
     margin-bottom: 2rem;
 }
 
+.entry > a {
+    text-transform: lowercase;
+}
+
 .entries {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -245,6 +252,11 @@ li {
     overflow-y: clip;
     width: max-content;
     max-height: 75vh;
+}
+
+.entry-photos img {
+    width: auto;
+    height: 74vh;
 }
 
 #header-img {
@@ -290,6 +302,11 @@ li {
 }
 
 @media (min-width: 600px) {
+    html {
+        font-size: 1.3vw;
+        text-align: center;
+    }
+
     main img {
         width: auto;
         height: 100%;
@@ -306,10 +323,6 @@ li {
         letter-spacing: 4px;
     }
 
-    .entry-photos img {
-        width: auto;
-        height: 74vh;
-    }
 }
 
 @media (max-width: 599px) {
@@ -352,21 +365,15 @@ li {
         translate: 0;
     }
 
-    .entry-photos img:first-child {
-        width: calc(100vw - 1rem - 2px);
-        height: auto;
-    }
-
-    .entry-photos {
+  /*  .entry-photos {
         display: block;
         position: relative;
     }
 
     .entry-photos img {
-    /*    display: block;*/
         width: auto;
         max-height: 100%;
-    }
+    }*/
 
     /*    mf safari doesn't support this*/
     /*@container scroller scroll-state(scrollable: top) {

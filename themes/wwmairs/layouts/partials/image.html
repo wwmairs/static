@@ -1,1 +1,7 @@
-<img loading="lazy" src="{{ .RelPermalink }}" width="{{ .Width }}" alt="">
+<img
+    onload="this.classList.remove('loading');" 
+    class="loading" 
+    loading="lazy" 
+    src="{{ .RelPermalink }}" 
+    width="{{ .Width }}" 
+    alt="">

@@ -4,10 +4,13 @@
   {{ partial "head.html" . }}
 </head>
 <body>
-  <header>
-    {{ partial "header.html" . }}
-  </header>
-  {{ partial "breadcrumbs.html" . }}
+  <div class="front matter">
+    <header>
+      {{ partial "header.html" . }}
+    </header>
+    {{ partial "breadcrumbs.html" . }}
+  </div>
+  
   <main>
     {{ block "main" . }}{{ end }}
   </main>

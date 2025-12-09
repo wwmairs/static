@@ -13,9 +13,7 @@ Renders a menu for the given menu ID.
 {{- with index site.Menus $menuID }}
   <nav>
     <ul>
-      <!-- {{- partial "inline/menu/walk.html" (dict "page" $page "menuEntries" .) }} -->
-      <li><a href="/">main</a></li>
-      <li><a href="/about">about</a></li>
+      {{- partial "inline/menu/walk.html" (dict "page" $page "menuEntries" .) }}
     </ul>
   </nav>
 {{- end }}

@@ -1,5 +1,7 @@
 {{ define "main" }}
-  {{ .Content }}
+  <div class="side-matter">
+    {{ .Content }}
+  </div>
   <h1>recent work</h1>
   <div class="entries">
     {{ range first 9 site.RegularPages }}
@@ -14,5 +16,5 @@
       </a>
     {{ end }}
   </div>
-  <a href="/posts">&rarr; view more things</a>
+  <a href="/w">&rarr; view more things</a>
 {{ end }}
