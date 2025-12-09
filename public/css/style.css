@@ -242,17 +242,6 @@ li {
     margin-top: .5rem;
 }
 
-.entry-photo-container {
-    overflow: overlay;
-}
-.entry-photos  {
-    display: block;
-    position: relative;
-    overflow-x: scroll;
-    overflow-y: clip;
-    width: max-content;
-    max-height: 75vh;
-}
 
 .entry-photos img {
     width: auto;
@@ -310,6 +299,10 @@ li {
     main img {
         width: auto;
         height: 100%;
+        max-height: 90vh;
+    }
+
+    .cover-image img {
         max-height: 400px;
     }
 
@@ -391,6 +384,19 @@ li {
             display: inline-block;
         }
     }*/
+
+    .entry-photo-container {
+    overflow: overlay;
+    }
+
+    .entry-photos  {
+        display: block;
+        position: relative;
+        overflow-x: scroll;
+        overflow-y: clip;
+        width: max-content;
+        max-height: 75vh;
+    }
     
 
 }

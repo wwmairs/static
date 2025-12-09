@@ -10,9 +10,9 @@
     <atom:link href="https://wwmairs.com/tags/letterpress/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>From There to Here</title>
-      <link>https://wwmairs.com/w/from-there-to-here/</link>
+      <link>https://wwmairs.com/w/from-there-to-there/</link>
       <pubDate>Thu, 07 Mar 2024 16:27:55 -0800</pubDate>
-      <guid>https://wwmairs.com/w/from-there-to-here/</guid>
+      <guid>https://wwmairs.com/w/from-there-to-there/</guid>
       <description>&lt;p&gt;letterpress edition&lt;/p&gt;</description>
     </item>
     <item>
@@ -21,6 +21,13 @@
       <pubDate>Fri, 15 Dec 2023 16:27:55 -0800</pubDate>
       <guid>https://wwmairs.com/w/transmitted/</guid>
       <description>&lt;p&gt;Letterpress &amp;amp; riso artist&amp;rsquo;s book&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>hmm</title>
+      <link>https://wwmairs.com/w/hmm-prints/</link>
+      <pubDate>Mon, 23 May 2022 16:27:55 -0800</pubDate>
+      <guid>https://wwmairs.com/w/hmm-prints/</guid>
+      <description>&lt;p&gt;letterpress monoprints&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
