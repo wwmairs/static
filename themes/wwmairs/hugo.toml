@@ -2,16 +2,10 @@ baseURL = 'https://wwmairs.com/'
 languageCode = 'en-US'
 title = 'wwmairs'
 
-
 [[menus.main]]
 name = 'work'
 pageRef = '/w'
 weight = 10
-
-[[menus.main]]
-name = 'tags'
-pageRef = '/tags'
-weight = 20
 
 [module]
   [module.hugoVersion]
