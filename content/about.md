@@ -17,3 +17,9 @@ they are available for hire for printing, design work, and computer work.
 they studied computers and software at Tufts University before studying printing and paper at the Pacific Northwest College of Art.
 
 if you'd like you can look at <a href="/resume.pdf" target="_blank">their resume</a>.
+
+
+
+
+
+type is set in FT88, included in the collection Degheest by Ange Degheest, Camille Depalle, Eugénie Bidaut, Luna Delabre, Mandy Elbé, May Jolivet, Oriane Charvieux, Benjamin Gomez, Justine Herbel. Distributed by velvetyne.fr.
