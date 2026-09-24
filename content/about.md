@@ -5,8 +5,14 @@ draft = false
 menus = 'main'
 +++
 
-will mairs is a typesetter and printer based out of Portland, Oregon.
+Will mairs is a typesetter and printer based out of Portland, Oregon.
 they like to print things with a risograph, for fun and [for business](https://everythingmatters.press "everything matters press").
+
+
+they are available for hire for printing, design work, and computer work.
+
+# \"freelance typesetting\"
+
 
 they studied computers and software at Tufts University before studying printing and paper at the Pacific Northwest College of Art.
 

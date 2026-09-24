@@ -1,11 +1,17 @@
 {{ define "main" }}
   <h1>{{ .Title }}</h1>
   {{ .Content }}
-  {{ range .Pages }}
-    <div class="entry">
-      <a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a>
-      {{ .Summary }}
-      {{ partial "cover-image.html" . }}
-    </div>
-  {{ end }}
+  {{ range (where .Site.RegularPages "Type" "in" (slice "w")).GroupByDate "2006" }}
+  <section>
+    <h2 class="list-date-label"> {{ .Key }} </h2>
+    {{ range .Pages }}
+      <div class="entry">
+        <a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a>
+        {{ .Summary }}
+        {{ partial "cover-image.html" . }}
+      </div>
+    {{ end }}
+    
+  </section>
+  {{ end}}
 {{ end }}

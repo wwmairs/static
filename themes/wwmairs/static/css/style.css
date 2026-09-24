@@ -3,12 +3,42 @@
     src: url("../VTCCarrie-Regular.otf") format("opentype");
 }
 
+@font-face {
+    font-family: "FT88 Gothique";
+    src: url("../FT88-Gothique.otf") format("opentype");
+}
+
+
+@font-face {
+    font-family: "FT88 Regular";
+    src: url("../FT88-Regular.otf") format("opentype");
+}
+
+@font-face {
+    font-family: "FT88 Bold";
+    src: url("../FT88-Bold.otf") format("opentype");
+}
+
+@font-face {
+    font-family: "FT88 Italic";
+    src: url("../FT88-Italic.otf") format("opentype");
+}
+
+@font-face {
+    font-family: "Avara Bold";
+    src: url("../Avara-Bold.otf") format("opentype");
+}
+
 :root {
     --green: #84b849;
     --melon: #eaa467;
     --copper: #bd6439;
+    --lime: #e3ed55;
+    --aqua: #5ec8e5;
     --trans-copper: rgba(189, 100, 57, .05);
     --light-copper: #fcf7f5;
+    --trans-aqua: rgba(247, 253, 255, .35);
+    --light-aqua: #f7fdff;
     --red: #eb414c;
     --blue: #89c9d0;
 }
@@ -29,16 +59,18 @@ html {
 
 body {
 /*    font-family: "news-gothic-std", sans-serif;*/
-    color: var(--copper);
-    font-family: "ocr-a-std", monospace;
+/*    font-family: "ocr-a-std", monospace;*/
+/*    font-family: "Avara Bold";*/
+    font-family: "FT88 Regular";
+    color: var(--aqua);
     font-weight: 500;
     margin: 0;
-/*    background-color: var(--green);*/
     margin: auto;
     padding: .5rem;
     letter-spacing: -0.1rem;
+/*    background-color: var(--green);*/
 /*    background-color: rgba(0,0,255, .05);*/
-    background-color: var(--light-copper);
+    background-color: var(--light-aqua);
 }
 
 main > * {
@@ -49,12 +81,12 @@ main > * {
 
 h1, h2, h3 {
 /*    font-family: "VTC Carrie";*/
-    font-family: "ocr-a-std", monospace;
+/*    font-family: "ocr-a-std", monospace;*/
     text-transform: uppercase;
     margin-top: .2rem;
-    margin-bottom: .5rem;
+    margin-bottom: 1rem;
     color: white;
-    -webkit-text-stroke: .5px var(--copper);
+    -webkit-text-stroke: .5px var(--aqua);
 /*    background-color: var(--copper);*/
 }
 
@@ -64,9 +96,10 @@ h1 {
 
 
 a {
-    color: var(--copper);
+    color: var(--aqua);
+    text-decoration: none;
     text-decoration-line: underline;
-    text-decoration-color: blue;
+    text-decoration-color: var(--lime);
     text-decoration-thickness: .2rem;
     text-decoration-skip-ink: none;
 
@@ -90,10 +123,26 @@ a:has(.entry):hover {
 p {
     margin: 0;
     margin-bottom: 1rem;
+    text-align: left;
+}
+
+main p:first-of-type::first-letter {
+    font-family: "FT88 Gothique";
+    color: var(--lime);
+    text-transorm: uppercase;
+    font-size: 3rem;
+    float: left;
+}
+
+p:first-of-type::first-line {
+/*    font-variant-caps: small-caps;*/
+    text-transform: uppercase;
+    font-size: 110%;
+    letter-spacing: 2px
 }
 
 img.loading {
-    background-color: var(--copper);
+    background-color: var(--aqua);
     min-width: 100px;
     min-height: 200px;
     border-radius: .5rem;
@@ -107,8 +156,8 @@ header {
     background: rgba(255, 255, 255, .9);
     border-radius: 1rem;
     padding: 1rem;
-    box-shadow: 0 0 4px 0px var(--copper);
-    border: 1px solid var(--copper);
+    box-shadow: 0 0 4px 0px var(--aqua);
+    border: 1px solid var(--aqua);
 }
 
 header h1 {
@@ -135,7 +184,7 @@ header *:not(:last-child) {
 
 .breadcrumbs {
     font-size: .6rem;
-    border: 1px solid var(--copper);
+    border: 1px solid var(--aqua);
     border-radius: 2rem;
     background-color: white;
     padding: 0 .6rem;
@@ -173,14 +222,22 @@ main img {
     width: 100%;
     max-width: 800px;
     height: auto;
-    border: 1px solid var(--copper);
+    border: 1px solid var(--aqua);
 /*    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, .4);*/
 }
 
 
+
+hr:before {
+    content: "* * *";
+}
+
 hr {
+    color: var(--lime);
+/*    font-family: "FT88 Gothique";*/
+    text-align: left;
     border-style: none;
-    border-bottom: .1625rem dashed blue;
+/*    border-bottom: .1625rem dashed var(--lime);*/
     margin-top: 2rem;
     margin-bottom: 2rem;
 }
@@ -211,7 +268,7 @@ li {
 
 .tags li {
     float: left;
-    border: 1px solid var(--copper);
+    border: 1px solid var(--aqua);
     background-color: white;
     border-radius: 1rem;
     padding: .25rem .625rem;
@@ -249,17 +306,17 @@ li {
 }
 
 #header-img {
-    border: 1px solid var(--copper);
+    border: 1px solid var(--aqua);
     border-radius: 75px;
 }
 
 .link {
     background-color: white;
     border-radius: 2rem;
-    border: 2pt solid var(--copper);
+    border: 2pt solid var(--aqua);
     padding: 1rem;
     text-align: center;
-    box-shadow: 10px 10px 0px 0px var(--copper);
+    box-shadow: 10px 10px 0px 0px var(--aqua);
     position: relative;
     width: fit-content;
     margin: auto;
@@ -274,9 +331,9 @@ li {
 
 .link:hover {
     cursor: pointer;
-    border: 2pt solid var(--copper);
+    border: 2pt solid var(--aqua);
     transform: translate(5px, 5px);
-    box-shadow: 5px 5px 0px 0px var(--copper);
+    box-shadow: 5px 5px 0px 0px var(--aqua);
 }
 
 .link:not(:last-child) {
@@ -286,20 +343,40 @@ li {
 .link img { 
     max-width: 90vw;
     max-height: 40vh;
-    border: 1px solid var(--copper);
+    border: 1px solid var(--aqua);
     border-radius: 1rem;
+}
+
+.list-date-label {
+    text-align: left;
+    position: sticky;
+    top: 1rem;
 }
 
 @media (min-width: 600px) {
     html {
-        font-size: 1.3vw;
-        text-align: center;
+/*        font-size: 1.3vw;*/
+        font-size: 1.75vw;
+        text-align: right;
+    }
+
+    .breadcrumbs {
+        position: sticky;
+        top: 1rem;
+    }
+
+    p {
     }
 
     main img {
         width: auto;
         height: 100%;
         max-height: 90vh;
+    }
+
+    img.loading {
+        min-width: 500px;
+        min-height: 800px;
     }
 
     .cover-image img {
@@ -316,13 +393,25 @@ li {
         letter-spacing: 4px;
     }
 
+    .entry-details {
+        position: absolute;
+        top: 5rem;
+        left: 0;
+        text-align: left;
+        padding: 1rem;
+        max-width: 600px;
+    }
+
+    .entry-details p {
+    }
+
 }
 
 @media (max-width: 599px) {
     html {
 /*        container-type: scroll-state;*/
 /*        container-name: scroller;*/
-        background-color: var(--copper);
+        background-color: var(--aqua);
     }
 
     body {
@@ -341,16 +430,18 @@ li {
         text-align: center;
         border-bottom: 0;
 /*        border-radius: 1rem;*/
-        background-color: rgba(189,100,57, .75);
+/*        background-color: rgba(189,100,57, .75);*/
+        background-color: var(--trans-aqua);
     }
 
     header * {
         color: white;
-        -webkit-text-stroke: 0px;
+/*        -webkit-text-stroke: 0px;*/
     }
 
-    header h1 {
+    header h1, a {
         transition: 0.5s font-size;
+        -webkit-text-stroke: .5px var(--aqua);
     }
 
     header {
