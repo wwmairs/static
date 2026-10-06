@@ -5,10 +5,9 @@
   <section>
     <h2 class="list-date-label"> {{ .Key }} </h2>
     {{ range .Pages }}
-      <div class="entry">
-        <a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a>
-        {{ .Summary }}
-        {{ partial "cover-image.html" . }}
+      <div class="list-entry">
+        <!-- {{ .Summary }} -->
+        {{ partial "hover-image-link.html" . }}
       </div>
     {{ end }}
     

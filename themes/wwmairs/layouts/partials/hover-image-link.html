@@ -1,0 +1,16 @@
+<div class="hover-image" >
+  {{ $imgId := .LinkTitle }}
+  <a href="{{ .RelPermalink }}"
+     onmouseover="document.getElementById('{{ $imgId }}').style.display='block';"
+     onmouseout="document.getElementById('{{ $imgId }}').style.display='none';" 
+    >{{ .LinkTitle }}</a>
+  {{ with .Resources.ByType "image" }}
+    {{ with index . 0 }}
+      {{ with .Resize "2000x" }}
+        <div id="{{ $imgId }}" style="display: none;">
+          {{ partial "image.html" . }}
+        </div>
+      {{ end }}
+    {{ end }}
+  {{ end }}
+</div>

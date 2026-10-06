@@ -14,12 +14,21 @@ they are available for hire for printing, design work, and computer work.
 # \"freelance typesetting\"
 
 
-they studied computers and software at Tufts University before studying printing and paper at the Pacific Northwest College of Art.
 
-if you'd like you can look at <a href="/resume.pdf" target="_blank">their resume</a>.
+
+---
+
+
+will mairs completed their MFA in Print Media at the Pacific Northwest College of Art, and their BS in Computer Science from Tufts University.
+
+
+
+if you must, you can look at <a href="/resume.pdf" target="_blank">their resume</a>, which is probably out of date here.
+
 
 
 
 
 
 type is set in FT88, included in the collection Degheest by Ange Degheest, Camille Depalle, Eugénie Bidaut, Luna Delabre, Mandy Elbé, May Jolivet, Oriane Charvieux, Benjamin Gomez, Justine Herbel. Distributed by velvetyne.fr.
+
