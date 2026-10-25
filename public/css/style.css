@@ -126,7 +126,7 @@ p {
     text-align: left;
 }
 
-main p:first-of-type::first-letter {
+.initials p:first-of-type::first-letter {
     font-family: "FT88 Gothique";
     color: var(--lime);
     text-transorm: uppercase;
@@ -134,7 +134,7 @@ main p:first-of-type::first-letter {
     float: left;
 }
 
-p:first-of-type::first-line {
+.initials p:first-of-type::first-line {
 /*    font-variant-caps: small-caps;*/
     text-transform: uppercase;
     font-size: 110%;
@@ -314,6 +314,10 @@ li {
 
 .entry-details {
     margin-top: .5rem;
+}
+
+.entry-details > * {
+    margin-bottom: .25rem;
 }
 
 

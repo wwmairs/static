@@ -5,3 +5,13 @@ theme = 'wwmairs'
 
 [markup.goldmark.renderer]
 unsafe= true
+
+[[menus.main]]
+name = 'work'
+pageRef = '/work'
+weight = 10
+
+[module]
+  [module.hugoVersion]
+    extended = false
+    min = "0.116.0"

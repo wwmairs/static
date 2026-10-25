@@ -1,0 +1,10 @@
+{{ define "main" }}
+  <h1>{{ .Title }}</h1>
+  {{ .Content }}
+  {{ range .Pages }}
+    <div class="list-entry">
+      <!-- {{ .Summary }} -->
+      {{ partial "hover-image-link.html" . }}
+    </div>
+  {{ end }}
+{{ end }}

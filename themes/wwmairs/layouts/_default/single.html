@@ -18,8 +18,10 @@
       <time datetime="{{ $dateMachine }}">{{ $dateHuman }}</time>
     {{ end }}
 
-    {{ .Content }}
-    {{ partial "terms.html" (dict "taxonomy" "tags" "page" .) }}
+    <div class="initials">
+      {{ .Content }}
+      {{ partial "terms.html" (dict "taxonomy" "tags" "page" .) }}
+    </div>
   </div>
 
   <div class="entry-photo-container">
