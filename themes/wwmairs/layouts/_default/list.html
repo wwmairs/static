@@ -1,11 +1,15 @@
 {{ define "main" }}
-  <h1>{{ .Title }}</h1>
-  {{ .Content }}
-  {{ range (where .Site.RegularPages "Type" "in" (slice "work")).GroupByDate "2006" }}
-  <section>
-    <h2 class="list-date-label"> {{ .Key }} </h2>
+  <div class="grid">
+    <div class="grid2">
+      <h1>{{ .Title }}</h1>
+      {{ .Content }}
+    </div>
+  </div>
+  {{ range .Pages.GroupByDate "2006" }}
+  <section class="entry-year-group grid">
+    <h2 class="list-date-label grid1"> {{ .Key }} </h2>
     {{ range .Pages }}
-      <div class="list-entry">
+      <div class="list-entry grid2">
         <!-- {{ .Summary }} -->
         {{ partial "hover-image-link.html" . }}
       </div>
@@ -13,4 +17,5 @@
     
   </section>
   {{ end}}
+  
 {{ end }}

@@ -1,31 +1,38 @@
 {{ define "main" }}
 
-  {{ range .Resources.ByType "image" | first 1 }}
-    {{ partial "image.html" . }}
-  {{ end }}
+  
 
   <div class="entry-details">
-    <h1><a
-      {{- with .Params.link }}
-       href="{{ . }}"
-      {{- end }}
-      style="color: white !important;">{{ .Title }}</a>
-    </h1>
-    
-    {{ if eq .Section "w" }}
-      {{ $dateMachine := .Date | time.Format "2006-01-02T15:04:05-07:00" }}
-      {{ $dateHuman := .Date | time.Format ":date_long" }}
-      <time datetime="{{ $dateMachine }}">{{ $dateHuman }}</time>
-    {{ end }}
+    <div class="grid-desktop">
+      <div class="grid1">
+        {{ range .Resources.ByType "image" | first 1 }}
+          {{ partial "image.html" . }}
+        {{ end }}
+      </div>
+      <div class="grid2">
+        <h1>
+          <a
+          {{- with .Params.link }}
+           href="{{ . }}"
+          {{- end }}
+          style="color: white !important;">{{ .Title }}</a>
+        </h1>
+        {{ if eq .Section "work" }}
+          {{ $dateMachine := .Date | time.Format "2006-01-02T15:04:05-07:00" }}
+          {{ $dateHuman := .Date | time.Format ":date_long" }}
+          <time datetime="{{ $dateMachine }}">{{ $dateHuman }}</time>
+        {{ end }}
 
-    <div class="initials">
-      {{ .Content }}
-      {{ partial "terms.html" (dict "taxonomy" "tags" "page" .) }}
-    </div>
+        <div class="initials">
+          {{ .Content }}
+          {{ partial "terms.html" (dict "taxonomy" "tags" "page" .) }}
+        </div>
+      </div>
+    </div>    
   </div>
 
-  <div class="entry-photo-container">
-    <div class="entry-photos">
+  <div class="entry-photo-container grid-desktop">
+    <div class="entry-photos grid1">
       {{ range after 1 (.Resources.ByType "image") }}
         {{ partial "image.html" . }}  
       {{ end }}

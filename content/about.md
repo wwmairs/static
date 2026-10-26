@@ -11,7 +11,7 @@ they like to print things with a risograph, for fun and [for business](https://e
 
 they are available for hire for printing, design work, and computer work.
 
-# \"freelance typesetting\"
+# \"free&shy;lance type&shy;setting\"
 
 
 

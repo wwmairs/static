@@ -1,10 +1,18 @@
 {{ define "main" }}
-  <h1>{{ .Title }}</h1>
-  {{ .Content }}
-  {{ range .Pages }}
-    <div class="list-entry">
-      <!-- {{ .Summary }} -->
-      {{ partial "hover-image-link.html" . }}
+  <div class="grid">
+    <div class="grid1">
+      <h1>{{ .Title }}</h1>
     </div>
-  {{ end }}
+    <div class="grid2">
+      {{ .Content }}
+      {{ range .Pages }}
+        <div class="list-entry">
+          <!-- {{ .Summary }} -->
+          {{ partial "hover-image-link.html" . }}
+        </div>
+      {{ end }}
+    </div>
+  </div>
+  
+  
 {{ end }}
