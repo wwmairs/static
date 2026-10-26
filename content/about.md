@@ -19,7 +19,7 @@ they are available for hire for printing, design work, and computer work.
 ---
 
 
-will mairs completed their MFA in Print Media at the Pacific Northwest College of Art, and their BS in Computer Science from Tufts University.
+will mairs completed their MFA in Print Media at the Pacific Northwest College of Art, and their BS in Computer Science at Tufts University.
 
 
 

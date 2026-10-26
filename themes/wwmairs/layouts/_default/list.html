@@ -17,5 +17,21 @@
     
   </section>
   {{ end}}
+
+  {{ partial "terms.html" (dict "taxonomy" "tags" "site" site) }}
+
+  
+  <div class="grid">
+    <h2 class="grid1"> Tags </h2>
+    <div class="tags grid2">
+    {{ $tags := site.GetPage "/tags" }}
+      <ul>
+        {{ range $tags.Pages }}
+          <li><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></li>
+        {{ end }}
+      </ul>
+    </div>
+  </div>
+    
   
 {{ end }}

@@ -1,7 +1,7 @@
 +++
 date = '2023-12-15T16:27:55-08:00'
 title = 'Transmitted'
-tags = ['riso', 'letterpress', 'typesetting',' book']
+tags = ['riso', 'letterpress', 'typesetting','book']
 
 +++
 

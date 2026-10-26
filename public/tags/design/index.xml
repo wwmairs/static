@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Design on wwmairs</title>
+    <link>http://10.0.0.237:1313/tags/design/</link>
+    <description>Recent content in Design on wwmairs</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="http://10.0.0.237:1313/tags/design/index.xml" rel="self" type="application/rss+xml" />
+  </channel>
+</rss>
