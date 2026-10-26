@@ -347,6 +347,11 @@ li {
     margin-bottom: .25rem;
 }
 
+.entry-details time {
+    display: block;
+    margin-bottom: .5rem;
+}
+
 
 .entry-photos img {
     width: auto;
