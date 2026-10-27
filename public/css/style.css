@@ -166,6 +166,7 @@ img.loading {
     background-color: var(--text-color);
     min-width: 100px;
     min-height: 200px;
+    max-height: 400px;
     border-radius: .5rem;
 }
 
