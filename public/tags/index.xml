@@ -6,13 +6,20 @@
     <description>Recent content in Tags on wwmairs</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 15 May 2026 16:27:55 -0800</lastBuildDate>
+    <lastBuildDate>Sat, 26 Sep 2026 22:02:46 -0700</lastBuildDate>
     <atom:link href="https://wwmairs.com/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Design</title>
       <link>https://wwmairs.com/tags/design/</link>
-      <pubDate>Fri, 15 May 2026 16:27:55 -0800</pubDate>
+      <pubDate>Sat, 26 Sep 2026 22:02:46 -0700</pubDate>
       <guid>https://wwmairs.com/tags/design/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Riso</title>
+      <link>https://wwmairs.com/tags/riso/</link>
+      <pubDate>Sat, 26 Sep 2026 22:02:46 -0700</pubDate>
+      <guid>https://wwmairs.com/tags/riso/</guid>
       <description></description>
     </item>
     <item>
@@ -23,10 +30,10 @@
       <description></description>
     </item>
     <item>
-      <title>Riso</title>
-      <link>https://wwmairs.com/tags/riso/</link>
-      <pubDate>Fri, 15 May 2026 16:27:55 -0800</pubDate>
-      <guid>https://wwmairs.com/tags/riso/</guid>
+      <title>Book</title>
+      <link>https://wwmairs.com/tags/book/</link>
+      <pubDate>Sat, 10 Jan 2026 11:44:48 -0700</pubDate>
+      <guid>https://wwmairs.com/tags/book/</guid>
       <description></description>
     </item>
     <item>
@@ -51,13 +58,6 @@
       <description></description>
     </item>
     <item>
-      <title>Book</title>
-      <link>https://wwmairs.com/tags/book/</link>
-      <pubDate>Sat, 20 Jul 2024 16:27:55 -0800</pubDate>
-      <guid>https://wwmairs.com/tags/book/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>Riso Postcards</title>
       <link>https://wwmairs.com/tags/riso-postcards/</link>
       <pubDate>Thu, 13 Jun 2024 16:27:55 -0800</pubDate>
@@ -76,6 +76,13 @@
       <link>https://wwmairs.com/tags/print/</link>
       <pubDate>Thu, 07 Mar 2024 16:27:55 -0800</pubDate>
       <guid>https://wwmairs.com/tags/print/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Binding</title>
+      <link>https://wwmairs.com/tags/binding/</link>
+      <pubDate>Fri, 20 Nov 2020 23:08:19 -0700</pubDate>
+      <guid>https://wwmairs.com/tags/binding/</guid>
       <description></description>
     </item>
   </channel>

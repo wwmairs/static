@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Binding on wwmairs</title>
+    <link>https://wwmairs.com/tags/binding/</link>
+    <description>Recent content in Binding on wwmairs</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 20 Nov 2020 23:08:19 -0700</lastBuildDate>
+    <atom:link href="https://wwmairs.com/tags/binding/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Calculus Binding</title>
+      <link>https://wwmairs.com/work/calculus-edition/</link>
+      <pubDate>Fri, 20 Nov 2020 23:08:19 -0700</pubDate>
+      <guid>https://wwmairs.com/work/calculus-edition/</guid>
+      <description>&lt;p&gt;A three volume special binding of a historical calculus text.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Rebindings</title>
+      <link>https://wwmairs.com/work/rebindings/</link>
+      <pubDate>Tue, 26 Nov 2019 23:08:06 -0700</pubDate>
+      <guid>https://wwmairs.com/work/rebindings/</guid>
+      <description>&lt;p&gt;Assorted rebindings.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Journals</title>
+      <link>https://wwmairs.com/work/journals/</link>
+      <pubDate>Sat, 26 Oct 2019 23:08:02 -0700</pubDate>
+      <guid>https://wwmairs.com/work/journals/</guid>
+      <description>&lt;p&gt;Assorted handbound journals.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
