@@ -1,7 +1,7 @@
 +++
 date = '2025-03-01T16:27:55-08:00'
 title = 'color chart & flyer'
-tags = ['riso', 'typesetting']
+tags = ['riso', 'design']
 
 +++
 

@@ -42,6 +42,8 @@
     --light-aqua: #f7fdff;
     --red: #eb414c;
     --blue: #89c9d0;
+    --text-color: var(--aqua);
+    --highlight-color: var(--lime);
 }
 
 #svg-container {
@@ -63,7 +65,7 @@ body {
 /*    font-family: "ocr-a-std", monospace;*/
 /*    font-family: "Avara Bold";*/
     font-family: "FT88 Regular";
-    color: var(--aqua);
+    color: var(--text-color);
     font-weight: 500;
     margin: 0;
     margin: auto;
@@ -88,7 +90,7 @@ h1, h2, h3 {
     margin-top: .2rem;
     margin-bottom: 1rem;
     color: white;
-    -webkit-text-stroke: .5px var(--aqua);
+    -webkit-text-stroke: .5px var(--text-color);
 /*    background-color: var(--copper);*/
 }
 
@@ -98,10 +100,10 @@ h1 {
 
 
 a {
-    color: var(--aqua);
+    color: var(--text-color);
     text-decoration: none;
     text-decoration-line: underline;
-    text-decoration-color: var(--lime);
+    text-decoration-color: var(--highlight-color);
     text-decoration-thickness: .2rem;
     text-decoration-skip-ink: none;
 
@@ -130,7 +132,7 @@ p {
 
 .initials p:first-of-type::first-letter {
     font-family: "FT88 Gothique";
-    color: var(--lime);
+    color: var(--highlight-color);
     text-transorm: uppercase;
     font-size: 3rem;
     float: left;
@@ -161,7 +163,7 @@ p {
 }
 
 img.loading {
-    background-color: var(--aqua);
+    background-color: var(--text-color);
     min-width: 100px;
     min-height: 200px;
     border-radius: .5rem;
@@ -175,8 +177,8 @@ header {
     background: rgba(255, 255, 255, .9);
     border-radius: 1rem;
     padding: 1rem;
-    box-shadow: 0 0 4px 0px var(--aqua);
-    border: 1px solid var(--aqua);
+    box-shadow: 0 0 4px 0px var(--text-color);
+    border: 1px solid var(--text-color);
     position: fixed;
     z-index: 1;
     bottom: 0rem;
@@ -209,7 +211,7 @@ header *:not(:last-child) {
 
 .breadcrumbs {
     font-size: .6rem;
-    border: 1px solid var(--aqua);
+    border: 1px solid var(--text-color);
     border-radius: 2rem;
     background-color: white;
     padding: 0 .6rem;
@@ -247,7 +249,7 @@ main img {
     width: 100%;
     max-width: 800px;
     height: auto;
-    border: 1px solid var(--aqua);
+    border: 1px solid var(--text-color);
 /*    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, .4);*/
 }
 
@@ -271,11 +273,11 @@ hr:before {
 }
 
 hr {
-    color: var(--lime);
+    color: var(--highlight-color);
 /*    font-family: "FT88 Gothique";*/
     text-align: left;
     border-style: none;
-/*    border-bottom: .1625rem dashed var(--lime);*/
+/*    border-bottom: .1625rem dashed var(--highlight-color);*/
     margin-top: 2rem;
     margin-bottom: 2rem;
 }
@@ -306,7 +308,7 @@ li {
 
 .tags li {
     float: left;
-    border: 1px solid var(--aqua);
+    border: 1px solid var(--text-color);
     background-color: white;
     border-radius: 1rem;
     padding: .25rem .625rem;
@@ -349,7 +351,7 @@ li {
 
 .entry-details time {
     display: block;
-    margin-bottom: .5rem;
+    margin-bottom: 1.25rem;
 }
 
 
@@ -359,17 +361,17 @@ li {
 }
 
 #header-img {
-    border: 1px solid var(--aqua);
+    border: 1px solid var(--text-color);
     border-radius: 75px;
 }
 
 .link {
     background-color: white;
     border-radius: 2rem;
-    border: 2pt solid var(--aqua);
+    border: 2pt solid var(--text-color);
     padding: 1rem;
     text-align: center;
-    box-shadow: 10px 10px 0px 0px var(--aqua);
+    box-shadow: 10px 10px 0px 0px var(--text-color);
     position: relative;
     width: fit-content;
     margin: auto;
@@ -384,9 +386,9 @@ li {
 
 .link:hover {
     cursor: pointer;
-    border: 2pt solid var(--aqua);
+    border: 2pt solid var(--text-color);
     transform: translate(5px, 5px);
-    box-shadow: 5px 5px 0px 0px var(--aqua);
+    box-shadow: 5px 5px 0px 0px var(--text-color);
 }
 
 .link:not(:last-child) {
@@ -396,7 +398,7 @@ li {
 .link img { 
     max-width: 90vw;
     max-height: 40vh;
-    border: 1px solid var(--aqua);
+    border: 1px solid var(--text-color);
     border-radius: 1rem;
 }
 
@@ -487,7 +489,7 @@ li {
     html {
 /*        container-type: scroll-state;*/
 /*        container-name: scroller;*/
-/*        background-color: var(--aqua);*/
+/*        background-color: var(--text-color);*/
     }
 
     body {
@@ -517,7 +519,7 @@ li {
 
     header h1, a {
         transition: 0.5s font-size;
-        -webkit-text-stroke: .5px var(--aqua);
+        -webkit-text-stroke: .5px var(--text-color);
     }
 
     header {

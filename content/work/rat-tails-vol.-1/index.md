@@ -1,7 +1,7 @@
 +++
 date = '2025-07-24T16:27:55-08:00'
 title = 'Rat Tails'
-tags = ['riso', 'typesetting']
+tags = ['riso', 'design']
 
 +++
 

@@ -1,7 +1,7 @@
 +++
 date = '2025-10-05T16:27:55-08:00'
 title = 'Ladds 4'
-tags = ['riso', 'typesetting', 'ladds edition']
+tags = ['riso', 'design', 'ladds edition']
 
 +++
 

@@ -2,7 +2,7 @@
 date = '2025-09-16T11:14:49-07:00'
 draft = true
 title = 'Katy & the Null Sets'
-tags = ['Riso', 'typesetting']
+tags = ['Riso', 'design']
 
 +++
 
